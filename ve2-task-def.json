@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:992382714546:task-definition/ve2-task-def:9",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:992382714546:task-definition/ve2-task-def:1",
     "containerDefinitions": [
         {
             "name": "ve3-app",
@@ -45,7 +45,7 @@
     "taskRoleArn": "arn:aws:iam::992382714546:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::992382714546:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 9,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -87,13 +87,13 @@
     "requiresCompatibilities": [
         "EC2"
     ],
-    "cpu": "2048",
-    "memory": "6144",
+    "cpu": "1024",
+    "memory": "3072",
     "runtimePlatform": {
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-08-08T11:14:40.576Z",
-    "registeredBy": "arn:aws:iam::992382714546:user/instructor",
+    "registeredAt": "2024-08-06T07:09:01.840Z",
+    "registeredBy": "arn:aws:iam::992382714546:root",
     "tags": []
 }
