@@ -1,61 +1,3 @@
-Skip to Main Content
-
-Services
-
-
-
-
-
-N. Virginia
-
-instructor @ 9923-8271-4546
-
-Amazon Elastic Container Service
-...
-JSON
-
-
-Successfully stopped task: 370036259c99459787e7a805ce02a864.
-
-Success Successfully stopped task: 370036259c99459787e7a805ce02a864.
-Task definition successfully created
-ve2-task-def:9 has been successfully created. You can use this task definition to deploy a service or run a task.
-View task definition
-
-Success Task definition successfully created ve2-task-def:9 has been successfully created. You can use this task definition to deploy a service or run a task.
-ve2-task-def:9
-Deploy
-Actions
-Create new revision
-Overview Info
-ARN
-arn:aws:ecs:us-east-1:992382714546:task-definition/ve2-task-def:9
-Status
-ACTIVE
-Time created
-August 08, 2024 at 16:44 (UTC+5:30)
-App environment
-EC2
-Task role
-ecsTaskExecutionRole 
-Task execution role
-ecsTaskExecutionRole 
-Operating system/Architecture
-Linux/X86_64
-Network mode
-awsvpc
-
-Containers
-JSON
-Task placement
-Volumes (0)
-Requires attributes
-Tags
-
-JSON
-Download JSON
-Download AWS CLI input
-Copy to clipboard
 {
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:992382714546:task-definition/ve2-task-def:9",
     "containerDefinitions": [
@@ -155,11 +97,3 @@ Copy to clipboard
     "registeredBy": "arn:aws:iam::992382714546:user/instructor",
     "tags": []
 }
-JSON
-
-CloudShell
-Feedback
-© 2024, Amazon Web Services, Inc. or its affiliates.
-Privacy
-Terms
-Cookie preferences
